@@ -40,7 +40,8 @@ pip install -r requirements.txt
 - transformers for LLM API (e.g., GPT-3.5)
 - must link to Huggingface for LLM (e.g., Llama-3.1-inst)
 
-Metrics:
+---
+## Metrics
 - Perplexity (GPT-3.5 LM Score)
 - Log Diversity
 - Relevance, Coherence, Interestingness (via GPT-3.5 voting)
