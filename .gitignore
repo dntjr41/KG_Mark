@@ -1,0 +1,47 @@
+# Data directories
+data
+kg
+outputs
+
+# Large model files
+*.pkl
+*.json
+paragram_xxl.pkl
+paragram_xxl_words.json
+filtered_data_*.pkl
+wikitext_freq.json
+valid_wtmk_words_in_wiki_base-only-f1000.pkl
+
+# API keys and sensitive files
+*key*.txt
+openai_key*.txt
+together_key.txt
+config.py
+
+# Log files
+*.log
+nohup.out
+watermark.log
+subgraph_test.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
